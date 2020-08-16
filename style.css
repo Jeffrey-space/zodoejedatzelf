@@ -1,0 +1,177 @@
+body {
+	background-color: #F9F9F9;
+}
+
+h1 {
+	color: #1A3773;
+	margin-top: 2rem;
+}
+
+h3 {
+	color: #0091F2;
+}
+
+/*Navigation and header*/
+.navbar {
+	background-color: #FFFF;
+}
+
+.secondary-navbar {
+	background-color: #0091F2;
+}
+
+.navbar-brand {
+	width: 12.5rem;
+}
+
+.logo {
+	width: 100%;
+}
+
+.nav-link {
+	color: #000000;
+	padding-left: none;
+}
+
+.nav-link:hover {
+	color: #1A3773;
+}
+
+.secondary-menu-item .nav-link {
+	color: #FFFF;
+}
+
+.secondary-menu-item .nav-link:hover {
+	color: #1A3773;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1rem;
+}
+
+.bi-search {
+	color: #FFFF;
+}
+
+.box {
+	display:none;
+}
+
+.search-box {
+	border: none;
+}
+
+/*dropdown menu*/
+select {
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+	border-color: #DEDEDF;
+    border-radius: 5px;
+    height: 34px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #FFFF;
+    -webkit-appearance: none;
+    background-position-x: 244px;
+}
+
+select option { 
+	color: #B5B5B5;
+}
+
+/*Content*/
+.dropdown {
+	margin-top: 3rem;
+}
+
+.card {
+	margin-top: 2rem;
+	border:none;
+}
+
+.card-center {
+	width: 65%;
+	margin-right: 0.5rem;
+}
+
+.card-right {
+	width: 65%;
+	height: 100%;
+	position: sticky;
+}
+
+.card-img-center {
+	width: 250px;
+	height: 250px;
+}
+
+.card-img-right {
+	width: 150px;
+	height: 150px;
+}
+
+.card-category {
+	color: #1A3773; 
+	font-size: 0.8rem;
+	font-weight: 400;
+}
+
+/*box center and right positioning*/
+.box-center {
+	overflow: hidden;
+}
+
+.box-right {
+	position: absolute;
+	margin-left: 35rem;
+	top: 17.8rem;
+}
+
+/*footer*/
+.footer {
+	background-color: #0091F2;
+	margin-top: 2rem;
+	height: 5rem; 
+}
+
+.nav-link-footer {
+	color: #FFFF;
+	margin-top: 1.5rem;
+}
+
+.vertical {
+    border-left:1px solid #FFFF;
+}
+
+/*Responsive mobile sizes*/
+@media (max-width: 576px) { 
+	.card-right{
+		display:none;
+	}
+}
+
+@media (max-width: 576px) { 
+	.card-center{
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+/*Responsive tablet sizes*/
+@media (min-width: 768px) and (max-width: 769px) {
+	.box-right {
+	    position: absolute;
+	    left: -176px;
+	    top: 17.8rem;
+	    width: 45%;
+	}
+}
+
+@media  (min-width: 1024px) and (max-width: 1366px) {
+	.box-right {
+	    position: absolute;
+	    left: -3rem;
+	    top: 17.8rem;
+	    width: 45%;
+	}
+}
