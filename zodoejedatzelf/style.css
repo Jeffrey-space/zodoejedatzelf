@@ -139,10 +139,6 @@ select option {
 	margin-top: 1.5rem;
 }
 
-.vertical {
-    border-left:1px solid #FFFF;
-}
-
 /*Responsive mobile sizes*/
 @media (max-width: 576px) { 
 	.card-right{
